@@ -1,0 +1,60 @@
+{
+	"frontEnd": [
+		{
+			"name": "Joe McAdams",
+			"specialty": "Front End",
+			"cop": false
+		},
+		{
+			"name": "Colin Quinn",
+			"specialty": "Front End",
+			"cop": false
+		},
+		{
+			"name": "Anna Belle Lansdowne",
+			"specialty": "Front End",
+			"cop": false
+		},
+		{
+			"name": "Steven Goodman",
+			"specialty": "Front End",
+			"cop": false
+		},
+		{
+			"name": "Nathan Arpin",
+			"specialty": "Front End",
+			"cop": false
+		}
+	],
+	"backEnd": [
+		{
+			"name": "Charlie Morley",
+			"specialty": "Back End",
+			"cop": true
+		},
+		{
+			"name": "David Vitale",
+			"specialty": "Back End",
+			"cop": false
+		},
+		{
+			"name": "Parker Berry",
+			"specialty": "Back End",
+			"cop": false
+		},
+		{
+			"name": "Ryan Thomas",
+			"specialty": "Back End",
+			"cop": false
+		},
+		{
+			"name": "Jimmy Reilly",
+			"specialty": "Back End",
+			"cop": false
+		}
+	],
+	"teamLead": {
+		"name": "Nathan Wilson",
+		"specialty": "Team Lead"
+	}
+}

@@ -1,0 +1,11 @@
+@import "Constants";
+
+.ListBoxContainer {
+  background-color: cadetblue;
+  padding: $textContainerPadding;
+  padding-top: 100px;
+  text-align: center;
+  border: double white 5px;
+  margin: 0vh 15vw 0 15vw;
+  color: white;
+}

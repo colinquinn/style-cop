@@ -1,0 +1,11 @@
+@import "Constants";
+
+.AppHeader {
+  background-color: midnightblue;
+  height: 85px;
+  width: $screenWidth;
+  color: white;
+  font-size: 1.1em;
+  text-align: center;
+  position: fixed;
+}

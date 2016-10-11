@@ -1,0 +1,35 @@
+.AppHeader {
+  background-color: midnightblue;
+  height: 85px;
+  width: 100vw;
+  color: white;
+  font-size: 1.1em;
+  text-align: center;
+  position: fixed; }
+
+body {
+  margin: 0;
+  padding-top: 0;
+  font-family: sans-serif;
+  background-color: lightgray; }
+
+.ListBoxContainer {
+  background-color: cadetblue;
+  padding: 15px 15px 15px 15px;
+  padding-top: 100px;
+  text-align: center;
+  border: double white 5px;
+  margin: 0vh 15vw 0 15vw;
+  color: white; }
+
+.ListItem {
+  padding: 15px 15px 15px 15px;
+  background-color: darkslateblue;
+  border: 5px inset cyan;
+  color: coral;
+  text-align: center; }
+
+.AssignButton {
+  padding: 15px 0 15px 0; }
+
+/*# sourceMappingURL=Styles.css.map */

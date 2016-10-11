@@ -1,0 +1,9 @@
+@import "Constants";
+
+.ListItem {
+  padding: $textContainerPadding;
+  background-color: darkslateblue;
+  border: 5px inset cyan;
+  color: coral;
+  text-align: center;
+}
