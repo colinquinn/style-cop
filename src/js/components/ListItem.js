@@ -8,7 +8,7 @@ export class ListItem extends Component {
         const color = (this.props.specialty === "Front End") ? {color: "red"}: {color: "yellow"}
 
         return (
-            <div className="ListItem" onClick={this.props.onClick}>
+            <div className="ListItem">
                 <h1 style={color}> {this.props.name} {styleCopIcon} </h1>
             </div>
         )

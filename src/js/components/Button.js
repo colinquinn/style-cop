@@ -6,14 +6,6 @@ import { FrontOrBackEnd } from '../App'
 
 export class Button extends Component {
 
-    addToCounter = () => {
-        let action = this.props.frontOrBack === FrontOrBackEnd.FRONT_END
-            ? createFrontEndClickAction()
-            : createBackEndClickAction()
-
-        this.props.store.dispatch(action)
-    }
-
     render() {
         let count = this.props.frontOrBack === FrontOrBackEnd.FRONT_END
             ? this.props.store.frontEndCount

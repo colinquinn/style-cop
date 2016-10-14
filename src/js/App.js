@@ -22,11 +22,6 @@ export class App extends React.Component {
                 <div>
                     <ListBoxContainer title="Back End Developers" frontOrBack={FrontOrBackEnd.BACK_END} store={this.props.store}/>
                 </div>
-                <div>
-                    <h2>
-                        Total Count: { this.props.store.backEndCount + this.props.store.frontEndCount }
-                    </h2>
-                </div>    
             </div>
         )
     }
