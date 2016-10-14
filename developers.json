@@ -13,7 +13,7 @@
 		{
 			"name": "Anna Belle Lansdowne",
 			"specialty": "Front End",
-			"cop": false
+			"cop": true
 		},
 		{
 			"name": "Steven Goodman",

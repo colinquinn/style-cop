@@ -2,9 +2,13 @@ import React from 'react'
 import '../styles/css/Styles.css'
 import ListBoxContainer from './containers/ListBoxContainer'
 import UserSecret from 'react-icons/lib/fa/user-secret'
-import * as DEVELOPERS from '../../developers.json'
 
 class App extends React.Component {
+
+    propTypes = {
+        store: React.PropTypes.object.isRequired
+    }
+
     render() {
         return (
             <div>
@@ -12,10 +16,10 @@ class App extends React.Component {
                     <h1> Style Cop <UserSecret /></h1>
                 </div>
                 <div>
-                    <ListBoxContainer title="Front End Developers" data={ DEVELOPERS.frontEnd }/>
+                    <ListBoxContainer title="Front End Developers" data={ this.props.store.frontEnd }/>
                 </div>
                 <div>
-                    <ListBoxContainer title="Back End Developers" data={ DEVELOPERS.backEnd }/>
+                    <ListBoxContainer title="Back End Developers" data={ this.props.store.backEnd }/>
                 </div>
             </div>
         )
