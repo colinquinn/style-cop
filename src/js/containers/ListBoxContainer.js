@@ -9,7 +9,7 @@ export class ListBoxContainer extends React.Component {
             <div className="ListBoxContainer">
                 <h1> {this.props.title} </h1>
                 <ListBox data={this.props.data} />
-                <Button />
+                <Button addToCount={this.props.addToCount} />
             </div>
         )
     }
