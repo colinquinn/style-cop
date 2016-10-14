@@ -1,9 +1,9 @@
 import React from 'react'
 import '../styles/css/Styles.css'
-import ListBoxContainer from './containers/ListBoxContainer'
+import { ListBoxContainer } from './containers/ListBoxContainer'
 import UserSecret from 'react-icons/lib/fa/user-secret'
 
-class App extends React.Component {
+export class App extends React.Component {
 
     propTypes = {
         store: React.PropTypes.object.isRequired
@@ -25,4 +25,3 @@ class App extends React.Component {
         )
     }
 }
-export default App

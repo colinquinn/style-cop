@@ -1,7 +1,7 @@
 import React from 'react'
-import ListItem from '../components/ListItem'
+import { ListItem } from '../components/ListItem'
 
-class ListBox extends React.Component {
+export class ListBox extends React.Component {
     render() {
         return (
             <div>
@@ -12,4 +12,3 @@ class ListBox extends React.Component {
         )
     }
 }
-export default ListBox

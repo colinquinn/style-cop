@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { createStore } from './store';
-import App from './App';
+import { App } from './App';
 import * as DEVELOPERS from '../../developers.json'
 
 export class AppWrapper extends React.Component {

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../styles/css/Styles.css'
 import HandOLeft from 'react-icons/lib/fa/hand-o-left'
 
-class ListItem extends Component {
+export class ListItem extends Component {
     render() {
         const styleCopIcon = this.props.cop ? <HandOLeft /> : null
         const color = (this.props.specialty === "Front End") ? {color: "red"}: {color: "yellow"}
@@ -15,4 +15,3 @@ class ListItem extends Component {
     }
 }
 
-export default ListItem

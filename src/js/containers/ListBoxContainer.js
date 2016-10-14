@@ -1,9 +1,9 @@
 import React from 'react'
 import '../../styles/css/Styles.css'
-import ListBox from '../containers/ListBox'
-import Button from '../components/Button'
+import { ListBox } from '../containers/ListBox'
+import { Button } from '../components/Button'
 
-class ListBoxContainer extends React.Component {
+export class ListBoxContainer extends React.Component {
     render() {
         return (
             <div className="ListBoxContainer">
@@ -14,4 +14,3 @@ class ListBoxContainer extends React.Component {
         )
     }
 }
-export default ListBoxContainer

@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import '../../styles/css/Styles.css'
 import Magic from 'react-icons/lib/fa/magic'
 
-class Button extends Component {
+export class Button extends Component {
     render() {
         let counter = 0;
         let updateCounter = () => {
@@ -20,5 +20,3 @@ class Button extends Component {
         )
     }
 }
-
-export default Button
