@@ -1,30 +1,29 @@
 import React, { Component } from 'react'
 import '../../styles/css/Styles.css'
 import Magic from 'react-icons/lib/fa/magic'
-import { clone } from '../clone'
+import { createFrontEndClickAction, createBackEndClickAction } from '../actions'
+import { FrontOrBackEnd } from '../App'
 
 export class Button extends Component {
-    
-    constructor(props) {
-        super(props)
-
-        this.state = { counter: 0 }
-    }
 
     addToCounter = () => {
-        this.props.addToCount()
+        let action = this.props.frontOrBack === FrontOrBackEnd.FRONT_END
+            ? createFrontEndClickAction()
+            : createBackEndClickAction()
 
-        this.setState(
-            clone(this.state).with({ counter: this.state.counter + 1 })
-        )
+        this.props.store.dispatch(action)
     }
 
     render() {
+        let count = this.props.frontOrBack === FrontOrBackEnd.FRONT_END
+            ? this.props.store.frontEndCount
+            : this.props.store.backEndCount
+
         return (
             <div className="AssignButton">
                 <a>
                     <button onClick={this.addToCounter}>
-                            <h2>Update Counter: [{this.state.counter}] <Magic /></h2>
+                            <h2>Update Counter: [{count}] <Magic /></h2>
                     </button>
                 </a>
             </div>

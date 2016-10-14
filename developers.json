@@ -56,5 +56,7 @@
 	"teamLead": {
 		"name": "Nathan Wilson",
 		"specialty": "Team Lead"
-	}
+	},
+	"frontEndCount": 0,
+	"backEndCount": 0
 }
