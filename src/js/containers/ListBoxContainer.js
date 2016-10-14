@@ -13,7 +13,7 @@ export class ListBoxContainer extends React.Component {
         return (
             <div className="ListBoxContainer">
                 <h1> {this.props.title} </h1>
-                <ListBox data={data} />
+                <ListBox frontOrBack={this.props.frontOrBack} store={this.props.store} />
                 <Button frontOrBack={this.props.frontOrBack} store={this.props.store} />
             </div>
         )
