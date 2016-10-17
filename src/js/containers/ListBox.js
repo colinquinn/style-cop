@@ -1,7 +1,6 @@
 import React from 'react'
 import { ListItem } from '../components/ListItem'
 import { FrontOrBackEnd } from '../App'
-import { createSetCopAction } from '../actions'
 
 export class ListBox extends React.Component {
     render() {
