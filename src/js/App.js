@@ -17,11 +17,12 @@ export class App extends React.Component {
                     <h1> Style Cop <UserSecret /></h1>
                 </div>
                 <div>
-                    <ListBoxContainer title="Front End Developers" frontOrBack={FrontOrBackEnd.FRONT_END} store={this.props.store}/>
+                    <ListBoxContainer title="Front End Developers" frontOrBack={FrontOrBackEnd.FRONT_END} store={this.props.store} />
                 </div>
                 <div>
-                    <ListBoxContainer title="Back End Developers" frontOrBack={FrontOrBackEnd.BACK_END} store={this.props.store}/>
+                    <ListBoxContainer title="Back End Developers" frontOrBack={FrontOrBackEnd.BACK_END} store={this.props.store} />
                 </div>
+                <h2>Total Count: {this.props.store.backEndCount + this.props.store.frontEndCount}</h2>
             </div>
         )
     }

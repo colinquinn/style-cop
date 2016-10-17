@@ -8,7 +8,7 @@ export class Button extends Component {
         return (
             <div className="AssignButton">
                 <a>
-                    <button onClick={null}>
+                    <button onClick={this.props.onClick}>
                             <h2>Update Counter: [{this.props.count}] <Magic /></h2>
                     </button>
                 </a>
