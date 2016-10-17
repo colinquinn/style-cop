@@ -1,3 +1,8 @@
+This project has three branches:
+  seminar -> the code that I started with for the 10/17 seminar.  This is the starting point for implementing the first pieces of functionality, making the counters work either using redux or using native react calls
+  post-seminar -> this is what I ended up with after the seminar.  It has the counters working using redux architecture, but it doesn't yet have the ability to set the style cop.  This would be a good exercise
+  master -> this is the code with the set style cop action (using redux architecture) completed.  You can look at this as a reference for how all the moving pieces fit together.
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.  
